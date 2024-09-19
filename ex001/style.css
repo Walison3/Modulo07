@@ -1,0 +1,54 @@
+body {
+    background-color: rgba(197, 197, 197, 0.562);
+    margin: 0; /* Remove margens padrão do body */
+    padding: 0; /* Remove padding padrão do body */
+    display: flex; /* Usado para centralizar verticalmente */
+    justify-content: center; /* Centraliza horizontalmente */
+    align-items: center; /* Centraliza verticalmente */
+    min-height: 100vh; /* Garante que o body ocupe toda a altura da viewport */
+}
+
+div#principal {
+    background-color: aliceblue;
+    max-width: 600px;
+    width: 100%;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+div#sec {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Centraliza os itens na horizontal */
+    gap: 10px; /* Espaçamento entre os itens */
+}
+
+input#num1, input#num2 {
+    width: 80px;
+    height: 20px;
+    border-radius: 10px;
+    text-align: center; /* Centraliza o texto dentro dos inputs */
+}
+
+input#bt {
+    border-radius: 7px;
+    margin-top: 15px;
+    display: block;
+    cursor: pointer; /* Adiciona um cursor de ponteiro para o botão */
+}
+
+/* Adiciona um estilo para a área de resultado */
+div#resultado {
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+.Amenor{
+    font-size: 12px;
+    background-color: red;
+    padding: 15px;
+    color: white;
+    border-radius: 10px;
+    display: none;
+}
